@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+
+header{
+    background-color: rgb(255, 105, 0);
+    position: fixed;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header .container, .menu{
+    display: flex;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-around;
+    max width: 1000px;
+}
+
+.menu{
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    width: 200px;
+    list-style: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    max-width: 200px;
+}
+
+.account{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 200px;
+    color: white;
+}
+
+.fa-person, .fa-heart, .fa-bag-shopping{
+    margin-right: 1em;
+}
