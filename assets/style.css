@@ -62,6 +62,8 @@ a{
     margin-top: 50px;
     margin-inline: auto;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -107,4 +109,8 @@ a{
     position: absolute;
     right: 0px;
     top: 10px;
+}
+
+.actual-price{
+    color: red;
 }
