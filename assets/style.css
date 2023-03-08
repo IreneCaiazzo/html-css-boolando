@@ -8,7 +8,7 @@
 
 header{
     background-color: rgb(255, 105, 0);
-    position: fixed;
+    /* position: fixed; */    TODO: CHECK POSITION
     width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -53,4 +53,58 @@ a{
 
 .fa-person, .fa-heart, .fa-bag-shopping{
     margin-right: 1em;
+}
+
+/* main */
+
+.container-items{
+    width: 1000px;
+    margin-top: 50px;
+    margin-inline: auto;
+    display: flex;
+
+}
+
+.container-static{
+    display: block;
+    position: relative;
+    max-width: 300px;
+}
+
+.item{
+    
+    background-image: url("img/1b.webp");
+    max-width: 300px;
+}
+
+/* .item :hover{
+    opacity: 0%;
+} */
+
+.discount{
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    background-color: red;
+    color: white;
+    padding: .3em;
+}
+
+.eco{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    background-color: green;
+    color: white;
+    padding: .3em;
+}
+
+.heart{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 10px;
 }
