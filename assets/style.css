@@ -8,7 +8,7 @@
 
 header{
     background-color: rgb(255, 105, 0);
-    /* position: fixed; */    TODO: CHECK POSITION
+    /* position: fixed;   TODO: CHECK POSITION */
     width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -78,11 +78,11 @@ a{
 }
 
 .item{
-    background-image: url("img/1b.webp");
+    /* background-image: url("img/1b.webp"); */
     max-width: 300px;
 }
 
-/* .item :hover{
+/* .item:hover{
     opacity: 0%;
 } */
 
@@ -97,7 +97,7 @@ a{
 
 .eco{
     position: absolute;
-    left: 50px;
+    left: 40px;
     bottom: 50px;
     background-color: green;
     color: white;
@@ -114,9 +114,15 @@ a{
     top: 10px;
 }
 
+.heart:hover{
+    color: red;
+}
+
 .actual-price{
     color: red;
 }
+
+/* footer */
 
 footer{
     background-color: rgb(26, 26, 26);
